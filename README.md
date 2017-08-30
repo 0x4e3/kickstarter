@@ -20,14 +20,14 @@ Available options:
 * ```--upgrade``` - Upgrade before starting
 * ```--noinput``` - Do not prompt the user for input of any kind
 
-```kickstarter run worker``` - runs celery workers
+```kickstarter run worker``` - runs celery workers  
 Available options:
 * ```--hostname``` - Set custom hostname, e.g. \'w1.%h\'
 * ```--concurrency``` - Number of child processes processing the queue. The default is the number of CPUs available on your system
 * ```--logfile``` - Path to log file. If no logfile is specified, stderr is used
 * ```--autoreload``` - Enable auto reloading
 
-```kickstarter run beat``` - runs celery task dispatcher
+```kickstarter run beat``` - runs celery task dispatcher  
 Available options:
 * ```--pidfile``` - Optional file used to store the process pid. The program will not start if this file already exists and the pid is still alive.
 * ```--logfile``` - Path to log file. If no logfile is specified, stderr is used
